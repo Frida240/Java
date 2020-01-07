@@ -1,0 +1,15 @@
+# active 用来配置  dev环境和release环境切换的
+spring:
+  profiles:
+    active: dev
+#    mysql数据库配置
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/dbfriends
+    username: root
+    password: 123456
+#jpa配置
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true

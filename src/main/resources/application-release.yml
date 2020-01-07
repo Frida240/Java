@@ -1,0 +1,9 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /friends
+friend:
+  name: Vicky
+  age: 30
+  sex: 女
+  height: 170cm
